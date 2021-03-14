@@ -1,8 +1,9 @@
 {
   "name": "asyncoload",
-  "version": "1.23.0",
-  "main": "./dist/index",
-  "license": "Apache License 2.0",
+  "version": "2.0.1",
+  "main": "dist/index",
+  "private": false,
+  "license": "Apache-2.0",
   "files": [
     "dist/**/*"
   ],
@@ -13,26 +14,27 @@
     "axios": "^0.21.1",
     "react": "^17.0.1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
     "@babel/preset-react": "^7.12.10"
+  },
+  "bugs": {
+    "url": "https://github.com/MichaelGrigoryan25/asyncoload/issues"
+  },
+  "author": {
+    "name": "Michael Grigoryan",
+    "url": "https://github.com/MichaelGrigoryan25/"
+  },
+  "keywords": [
+    "dynamic-media-loading",
+    "react",
+    "media"
+  ],
+  "description": "Dynamically load media in React ⚡",
+  "homepage": "https://github.com/MichaelGrigoryan25/asyncoload",
+  "readme": "https://github.com/MichaelGrigoryan25/asyncoload#asyncoload--dynamic-media-loader",
+  "repository": {
+    "url": "https://github.com/MichaelGrigoryan25/asyncoload"
   }
 }
