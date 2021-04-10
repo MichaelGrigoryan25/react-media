@@ -20,10 +20,13 @@ import AsyncoLoad from "asyncoload";
 
 const App = () => {
   return (
-    <AsyncoLoad
-      height="200"
-      src="https://audubon.org/sites/default/files/styles/hero_image/public/Hummingbird_Hero_Roger_Levien.jpeg"
-    />
+    <AsyncoLoad src="https://audubon.org/sites/default/files/styles/hero_image/public/Hummingbird_Hero_Roger_Levien.jpeg">
+      {({ type, src }) => {
+        if (type.startsWith("image")) {
+          return <img src={src} />;
+        }
+      }}
+    </AsyncoLoad>
   );
 };
 ```
