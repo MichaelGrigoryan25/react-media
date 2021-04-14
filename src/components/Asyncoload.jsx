@@ -4,9 +4,8 @@ import { useEffect, useState } from "react";
 
 const Asyncoload = ({ children, src }) => {
   const [type, setType] = useState(null);
-
-  useEffect(() => {
-    const fetchFile = async () => {
+  
+   const fetchFile = async () => {
       try {
         const { data } = await axios.get(src, {
           responseType: "blob",
@@ -19,6 +18,7 @@ const Asyncoload = ({ children, src }) => {
       }
     };
 
+  useEffect(() => {
     fetchFile();
     return () => {};
   }, []);
