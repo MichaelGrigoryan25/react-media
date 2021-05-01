@@ -1,6 +1,6 @@
-# Asyncoload — Dynamic media loader
+# Asyncoload — Asynchronous media type fetcher
 
-Asyncoload is an asynchronous React component for loading content like images, videos and audio with just one line of code.
+Asyncoload is an Asynchronous React component for fetching media type
 
 ## Getting Started
 
