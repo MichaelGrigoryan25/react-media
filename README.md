@@ -1,3 +1,7 @@
+# ⚠ DEPRECATION NOTE ⚠
+
+From now on Asyncoload will be deprecated in favour of the native [`object`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object) HTML tag which does the same thing as Asyncoload but in a more optimized manner.
+
 # Asyncoload — Asynchronous media type fetcher
 
 Asyncoload is an Asynchronous React component for fetching media type
